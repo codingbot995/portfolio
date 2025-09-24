@@ -1,4 +1,9 @@
 @import "tailwindcss";
 body {
-  @apply bg-gray-900 text-white;
+  @apply bg-gray-900 text-white; 
+  
+}
+html, body, #root {
+  height: 100%;
+  margin: 0;
 }

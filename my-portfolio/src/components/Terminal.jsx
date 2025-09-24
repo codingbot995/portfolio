@@ -8,7 +8,7 @@ const Terminal = () => {
 
   // Command handler
   const handleCommand = (e) => {
-    //e.preventDefault();
+    e.preventDefault();
 
     let output = "";
     if (command.toLowerCase() === "whoami") {
@@ -30,11 +30,11 @@ const Terminal = () => {
   };
 
   return (
-    <div className="text-green-400 font-mono p-3 rounded-lg shadow-lg w-full max-w-2xl ">
+    <div className="text-green-400 font-mono p-3 rounded-lg  w-full max-w-2xl ">
       {history.map((item, index) => (
         <div key={index}>
           <p>
-            <span className="text-green-500">jane@portfolio</span>
+            <span className="text-blue-500">jane@portfolio</span>
             <span className="text-white">:~$</span> {item.input}
           </p>
           <p>{item.output}</p>
@@ -43,7 +43,7 @@ const Terminal = () => {
 
       {/* Input area */}
       <form onSubmit={handleCommand}>
-        <span className="text-green-500">jane@portfolio</span>
+        <span className="text-blue-500">jane@portfolio</span>
         <span className="text-white">:~$</span>{" "}
         <input
           type="text"
