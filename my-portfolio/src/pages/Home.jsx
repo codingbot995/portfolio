@@ -15,7 +15,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="h-screen flex flex-col bg-gray-900 text-green-600">
+    <div className="h-screen flex flex-col bg-black text-green-600">
       <header className="p-3">
         <h1 className="font-serif text-xl font-bold">Jane Waguthi</h1>
         <h2 className="font-serif text-sm text-gray-400">Software Engineer</h2>
