@@ -19,16 +19,69 @@ const commands = {
     `👋Hello, I'm Jane mathenge.
   I'm a Sotware Engineer with expertise in full stack development,AI intergration and clound computing
   I specialize in backend development, APIs, and technical writing.`,
-  projects: () =>
-    `1.LearnWithAxes (https://learnwithaxes.com) Nairobi, Kenya
-  -	Successfully developed a hosted web platform (React) for an EdTech company focused on teaching tech-related skills.
-  -	Demonstrated proficiency in web development by creating an innovative platform that met the company's needs and objectives.
-  2.Opion Website (https:/alikograce.github.io)
-	  -Demonstrated expertise in web development by creating a responsive website for a tech startup.
-    -Ensured a seamless user experience across devices by implementing responsive design principles.
+  projects: () => (
+    <div className="space-y-4">
+      <h2 className="font-bold text-lg">🚀 Projects</h2>
 
+      <div>
+        <h3 className="font-semibold">1. Food delivery website</h3>
+        <p>allows users to browse a variety of restaurants and dishes</p>
+        <p>🛠️ Technologies: Reactjs, Java Script, API</p>
+        <a
+          href="https://food-delivery-website-v8uo.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-400 underline"
+        >
+          🔗 Visit Project
+        </a>
+      </div>
 
-`,
+      <div>
+        <h3 className="font-semibold">2. E-commerce platform</h3>
+        <p>provides a seamless shopping experience for fashion enthusiasts</p>
+        <p>🛠️ Technologies: Java Script, Tailwind CSS, Node.js</p>
+        <a
+          href="https://masomo-net.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-400 underline"
+        >
+          🔗 Visit Project
+        </a>
+      </div>
+
+      <div>
+        <h3 className="font-semibold">3. Lishebora (Supported by Microsoft for Startups)</h3>
+        <p>AI meal planner generating personalized plans based on health details</p>
+        <p>🛠️ Technologies: Next.js, Tailwind CSS, Azure, Cosmos DB, OpenAI API</p>
+        <a
+          href="http://lishebora.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-400 underline"
+        >
+          🔗 Visit Project
+        </a>
+      </div>
+
+      <div>
+        <h3 className="font-semibold">4. Charge24 Africa Payment Portal</h3>
+        <p>Payment system for power bank dispensing machines serving 3,000+ customers</p>
+        <p>🛠️ Technologies: Next.js, AWS S3, Amazon Lightsail, PostgreSQL, Daraja API</p>
+        <a
+          href="https://charge24.africa/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-400 underline"
+        >
+          🔗 Visit Project
+        </a>
+      </div>
+
+      <p className="mt-4">👉 Type <strong>'contact'</strong> to discuss collaborations!</p>
+    </div>
+  ),
 education: () =>
     `🎓 Education:
         

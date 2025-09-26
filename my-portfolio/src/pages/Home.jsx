@@ -29,9 +29,12 @@ const Home = () => {
             alt="Description of image"
             className="w-60 h-72 rounded-2xl shadow-xl object-cover"
           />
+          
         </div>
-
+         <div className="w-px bg-green-500 mx-2"></div>
+        
         <div className="flex-1 p-6 overflow-auto">
+          
           <nav className="flex flex-wrap gap-4 mb-4 text-green">
             <a>help</a>
             <span>|</span>
