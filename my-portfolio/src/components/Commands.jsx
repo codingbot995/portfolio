@@ -19,6 +19,21 @@ const commands = {
     `👋Hello, I'm Jane mathenge.
   I'm a Sotware Engineer with expertise in full stack development,AI intergration and clound computing
   I specialize in backend development, APIs, and technical writing.`,
+  experience: () =>
+    `💼 Work Experience:
+
+  Intern, HNG internship 13 
+  Collaborated with a distributed team to build responsive and user-friendly web  applications
+  Converted figma/UI designs into functional components using React.js, HTML, CSS, and JavaScript
+
+  Full Stack Developer, Safe Royal 
+  •	Designed and developed a responsive website for room booking.
+  •	Integrated a paystack API for direct payment through the website.
+  •	Maintain the website.
+
+  Type 'projects' to see my recent work.
+
+`,
   projects: () => (
     <div className="space-y-4">
       <h2 className="font-bold text-lg">🚀 Projects</h2>
@@ -161,6 +176,7 @@ education: () =>
       <li>AWS Community Builders (Amazon clone using HTML, CSS & JavaScript)</li>
       <li>AWS Community Builders (JavaScript & React from A-Z)</li>
       <li>DevTown in collaboration with GIET University (JavaScript & React)</li>
+      <li>Battle of the tech  stacks(Hakathon medimap project)</li>
     </ul>
   </span>
 ),

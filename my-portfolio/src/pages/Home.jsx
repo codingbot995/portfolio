@@ -25,7 +25,7 @@ const Home = () => {
       <main className="flex flex-1 overflow-hidden">
         <div className="p-4 flex-shrink-0">
           <img
-            src="passport.jpg"
+            src="pic1.png"
             alt="Description of image"
             className="w-60 h-72 rounded-2xl shadow-xl object-cover"
           />
