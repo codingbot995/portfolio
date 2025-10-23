@@ -16,7 +16,7 @@ contact
 
 ...and get instant responses rendered directly on the screen.
 
----
+----
 
 ## 🛠️ Tech Stack
 
@@ -113,5 +113,6 @@ Jane Waguthi
 
 This project is open-source under the MIT License
 .
+
 
 
