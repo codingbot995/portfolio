@@ -1,6 +1,6 @@
 # 💻 Waguthi Jane — Interactive Terminal Portfolio
 
-Welcome to **[jaynii.me](https://jaynii.me)** — my **interactive terminal-style portfolio**!  
+Welcome to **[jaynii.com](https://jaynii.com)** — my **interactive terminal-style portfolio**!  
 Instead of clicking through menus, you can explore my work by typing commands — just like in a real terminal.
 
 ---
